@@ -81,5 +81,45 @@ form {
     display: none;
 }
 
+.content{
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 23vw;
+    height: 22vh;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0%;
+    color: #ededed;
+}
+
+span {
+    color: #ededed;
+}
+
+.card-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20%;
+}
+
 
 

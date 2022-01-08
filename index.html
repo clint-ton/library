@@ -24,15 +24,16 @@
                 <span>Add Book</span>
                 <button id="close-btn">X</button>
             </div>
-            <form>
-                <input type="text" placeholder="Title">
-                <input type="text" placeholder="Author">
-                <input type="text" placeholder="Number of Pages">
+            <form id="add-book-form">
+                <input type="text" name="title" placeholder="Title" required>
+
+                <input type="text" name="author" placeholder="Author" required>
+                <input type="text" name="pgnum" placeholder="Number of Pages" required>
                 <div>
                     <input type="checkbox" name="read">
                     <label for="read">Finished</label>
                 </div>
-                <button id="submit">Submit</button>
+                <button type="submit" id="submit">Submit</button>
             </form>
         </div>
     </div>
